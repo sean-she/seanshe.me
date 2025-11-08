@@ -13,7 +13,14 @@ export default async function BlogPage() {
   const posts = await getBlogPosts();
 
   return (
-    <section>
+    <section className="relative min-h-screen">
+      {/* Animated Gradient Background */}
+      <div className="gradient-wrapper">
+        <div className="gradient gradient-1"></div>
+        <div className="gradient gradient-2"></div>
+        <div className="gradient gradient-3"></div>
+      </div>
+      
       <BlurFade delay={BLUR_FADE_DELAY}>
         <h1 className="font-medium text-2xl mb-8 tracking-tighter">blog</h1>
       </BlurFade>
