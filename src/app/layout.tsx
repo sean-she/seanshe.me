@@ -46,6 +46,9 @@ export const metadata: Metadata = {
     google: "",
     yandex: "",
   },
+  other: {
+    "apple-mobile-web-app-title": DATA.name,
+  },
 };
 
 export default function RootLayout({

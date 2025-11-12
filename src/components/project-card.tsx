@@ -43,7 +43,7 @@ export function ProjectCard({
   return (
     <Card
       className={
-        "flex flex-col overflow-hidden backdrop-blur-lg bg-card/60 dark:bg-card/40 border-2 border-white/20 dark:border-white/10 shadow-lg hover:shadow-xl transition-all duration-300 ease-out h-full hover:border-white/40 dark:hover:border-white/20 relative before:absolute before:inset-0 before:bg-gradient-to-br before:from-white/10 before:to-transparent before:opacity-0 hover:before:opacity-100 before:transition-opacity before:duration-300 before:pointer-events-none"
+        "flex flex-col overflow-hidden backdrop-blur-xl bg-card/60 dark:bg-card/40 border-2 border-white/20 dark:border-white/10 shadow-lg hover:shadow-xl transition-all duration-300 ease-out h-full hover:border-white/40 dark:hover:border-white/20 relative before:absolute before:inset-0 before:bg-gradient-to-br before:from-white/10 before:to-transparent before:opacity-0 hover:before:opacity-100 before:transition-opacity before:duration-300 before:pointer-events-none"
       }
     >
       <Link
