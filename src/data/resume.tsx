@@ -19,15 +19,19 @@ export const DATA = {
   skills: [
     "React",
     "Next.js",
-    "Typescript",
-    "Node.js",
+    "TypeScript",
+    "JavaScript",
+    "Tailwind CSS",
+    "Swift/SwiftUI",
+    "Figma",
+    "MongoDB",
+    "Google Firebase",
+    "Pandas",
     "Python",
-    "Go",
-    "Postgres",
-    "Docker",
-    "Kubernetes",
     "Java",
-    "C++",
+    "C/C++",
+    "Go",
+    "SQL/NoSQL",
   ],
   navbar: [
     { href: "/", icon: HomeIcon, label: "Home" },
@@ -107,7 +111,7 @@ export const DATA = {
         \n\n As **Vice President of Technology**, I **redesigned of the club’s main website** following a major rebrand, enhancing accessibility and engagement for **120+ members**. I developed reusable components for long-term scalability and consistency across future iterations. Launched **two event websites each semester** that attracted **70+ attendees**. Working closely with other executives, I ensured cohesive coordination across technical, marketing, and event planning efforts.
         
         
-        \n\n Also spent a semester as VP of Administration, where I helped with the planning and execution of the club's events and activities, membership, and general club operations :)`,
+        \n\n Also spent a semester as VP of Administration, where I helped with the planning and execution of the club events, activities, membership, and general club operations :)`,
     },
     {
       company: "Ai.Vocate",
@@ -149,64 +153,57 @@ export const DATA = {
   ],
   projects: [
     {
-      title: "Chat Collect",
-      href: "https://chatcollect.com",
-      dates: "Jan 2024 - Feb 2024",
+      title: "SmartSpoon",
+      href: "",
+      // dates: "Jan 2024 - Feb 2024",
       active: true,
       description:
-        "With the release of the [OpenAI GPT Store](https://openai.com/blog/introducing-the-gpt-store), I decided to build a SaaS which allows users to collect email addresses from their GPT users. This is a great way to build an audience and monetize your GPT API usage.",
+        "SmartSpoon is a React Native mobile app that uses AI-powered ingredient detection to help users manage their pantry and generate personalized recipes. Built with Flask, Roboflow, and the OpenAI API, it identifies food items from photos, tracks stored ingredients, and suggests new meal ideas based on user preferences and available ingredients.",
       technologies: [
-        "Next.js",
+        "React Native",
         "Typescript",
-        "PostgreSQL",
-        "Prisma",
-        "TailwindCSS",
-        "Stripe",
-        "Shadcn UI",
-        "Magic UI",
+        "Expo",
+        "MongoDB",
+        "Flask",
+        "OpenAI API",
       ],
       links: [
-        {
-          type: "Website",
-          href: "https://chatcollect.com",
-          icon: <Icons.globe className="size-3" />,
-        },
-      ],
-      image: "",
-      video:
-        "https://pub-83c5db439b40468498f97946200806f7.r2.dev/chat-collect.mp4",
-    },
-    {
-      title: "Magic UI",
-      href: "https://magicui.design",
-      dates: "June 2023 - Present",
-      active: true,
-      description:
-        "Designed, developed and sold animated UI components for developers.",
-      technologies: [
-        "Next.js",
-        "Typescript",
-        "PostgreSQL",
-        "Prisma",
-        "TailwindCSS",
-        "Stripe",
-        "Shadcn UI",
-        "Magic UI",
-      ],
-      links: [
-        {
-          type: "Website",
-          href: "https://magicui.design",
-          icon: <Icons.globe className="size-3" />,
-        },
         {
           type: "Source",
-          href: "https://github.com/magicuidesign/magicui",
+          href: "https://github.com/Danhdere/SmartSpoon-MobileApp",
           icon: <Icons.github className="size-3" />,
         },
       ],
-      image: "",
-      video: "https://cdn.magicui.design/bento-grid.mp4",
+      image: "/smartspoon_cover.png",
+      video:
+        "",
+    },
+    {
+      title: "Sotion",
+      href: "",
+      // dates: "June 2023 - Present",
+      active: true,
+      description:
+        "Sotion is a Notion-like application built with Next.js 14, React, Convex, Tailwind, Clerk, and EdgeStore. It is a real-time database and Notion-style editor that allows you to create, edit, and delete documents. It also allows you to publish your notes to the web.",
+      technologies: [
+        "Next.js",
+        "Typescript",
+        "Convex",
+        "EdgeStore",
+        "Clerk",
+        "Tailwind CSS",
+        "Shadcn UI",
+        "BlockNote",
+      ],
+      links: [
+        {
+          type: "Source",
+          href: "https://github.com/sean-she/sotion",
+          icon: <Icons.github className="size-3" />,
+        },
+      ],
+      image: "/sotion_cover.png",
+      video: "",
     },
   ],
 } as const;

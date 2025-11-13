@@ -15,7 +15,7 @@ interface Props {
   title: string;
   href?: string;
   description: string;
-  dates: string;
+  // dates: string;
   tags: readonly string[];
   link?: string;
   image?: string;
@@ -32,7 +32,7 @@ export function ProjectCard({
   title,
   href,
   description,
-  dates,
+  // dates,
   tags,
   link,
   image,
@@ -57,7 +57,7 @@ export function ProjectCard({
             loop
             muted
             playsInline
-            className="pointer-events-none mx-auto h-40 w-full object-cover object-top" // needed because random black line at bottom of video
+            className="pointer-events-none mx-auto w-full aspect-[5/3] object-cover object-top" // needed because random black line at bottom of video
           />
         )}
         {image && (
@@ -66,14 +66,14 @@ export function ProjectCard({
             alt={title}
             width={500}
             height={300}
-            className="h-40 w-full overflow-hidden object-cover object-top"
+            className="w-full aspect-[5/3] overflow-hidden object-cover object-top"
           />
         )}
       </Link>
       <CardHeader className="px-2 relative ">
         <div className="space-y-1">
           <CardTitle className="mt-2 text-base">{title}</CardTitle>
-          <time className="font-sans text-xs">{dates}</time>
+          {/* <time className="font-sans text-xs">{dates}</time> */}
           <div className="hidden font-sans text-xs underline print:visible">
             {link?.replace("https://", "").replace("www.", "").replace("/", "")}
           </div>

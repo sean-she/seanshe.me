@@ -136,9 +136,7 @@ export default function Page() {
                   Check out my latest work
                 </h2>
                 <p className="text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-                  I&apos;ve worked on a variety of projects, from simple
-                  websites to complex web applications. Here are a few of my
-                  favorites.
+                  I've worked on a variety of projects, data analysis to web apps. Here are a few of my favorites.
                 </p>
               </div>
             </div>
@@ -154,7 +152,7 @@ export default function Page() {
                   key={project.title}
                   title={project.title}
                   description={project.description}
-                  dates={project.dates}
+                  // dates={project.dates}
                   tags={project.technologies}
                   image={project.image}
                   video={project.video}
@@ -176,9 +174,14 @@ export default function Page() {
                 Get in Touch
               </h2>
               <p className="mx-auto max-w-[600px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-                Want to chat? Just shoot me a dm
-                and I&apos;ll respond whenever I can. I will ignore all
-                soliciting.
+                Want to chat? Just kidding, I know you do! Feel free to{" "}
+                <a
+                  href={`mailto:${DATA.contact.email}`}
+                  className="underline hover:opacity-80 transition-opacity"
+                >
+                  shoot me a message
+                </a>{" "}
+                :)
               </p>
             </div>
           </BlurFade>
