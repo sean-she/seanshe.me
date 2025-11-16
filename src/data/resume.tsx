@@ -12,7 +12,7 @@ export const DATA = {
   summary:
     `A recent graduate from UC Berkeley, now software engineer and designer based in San Francisco, CA. Over the course of my undergraduate career, I've been passionate about building products and experiences that help people. I love design, data, and engineering and hope to use my skills to solve meaningful problems. I'm always looking for new challenges and opportunities to learn.
     
-    \n\n Currently seeking opportunities entry-level/new grad roles in software engineering and design.
+    \n\n Currently seeking entry-level/new grad roles in software engineering and design.
     
     \n\n Ask me about [photography](https://www.instagram.com/seanphotodumps), sitcoms, and food!`,
   avatarUrl: "/me.png",
@@ -154,7 +154,7 @@ export const DATA = {
   projects: [
     {
       title: "SmartSpoon",
-      href: "",
+      href: "https://github.com/Danhdere/SmartSpoon-MobileApp",
       // dates: "Jan 2024 - Feb 2024",
       active: true,
       description:
@@ -180,7 +180,7 @@ export const DATA = {
     },
     {
       title: "Sotion",
-      href: "",
+      href: "https://github.com/sean-she/sotion",
       // dates: "June 2023 - Present",
       active: true,
       description:
