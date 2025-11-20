@@ -14,7 +14,7 @@ export const DATA = {
     
     \n\n Currently seeking entry-level/new grad roles in software engineering and design.
     
-    \n\n Ask me about [photography](https://www.instagram.com/seanphotodumps), sitcoms, and food!`,
+    \n\n Ask me about [photography](https://www.instagram.com/seanphotodumps), aviation, sitcoms, and food!`,
   avatarUrl: "/me.png",
   skills: [
     "React",
